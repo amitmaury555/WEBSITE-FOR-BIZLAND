@@ -1,0 +1,104 @@
+#outer{
+    min-height: 800px;
+    width: 1200px;
+    background-color: red;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+.a{
+    height: 50px;
+    width: 1200px;
+    background-color: aqua;
+    font-size: 25px;
+   line-height: 50px;
+   padding-left: 30px;
+    box-sizing: border-box;
+}
+.b{
+    height: 50px;
+    width: 1200px;
+    background-color: green;
+}
+.b1{
+    height: 50px;
+    width: 200px;
+    background-color:green;
+    float: left;
+    font-size: 40px;
+    padding-left: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    
+}
+.b2{
+    height: 50px;
+    width: 1000px;
+    background-color:green;
+    float: left;
+}
+.b2 ul{
+    margin: 20px;
+    margin-left: 300px;
+    list-style: none;
+    display: flex;
+}
+.b2 ul li{
+    line-height: 10px;
+}
+.b2 li{
+    padding-left: 35px;
+    box-sizing: border-box;
+}.b2 a{
+    color:yellow;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+	padding:14px;
+	box-sizing:border-box;
+    transition: 2s;
+}
+a:hover{
+    color: aqua;
+    background-color: deeppink;
+}
+#slider{
+    height: 800px;
+    width: 1200px;
+    background: url("pic4.jpg");
+    background-size: cover;
+    padding-left: 50px;
+    box-sizing: border-box;
+    padding-top: 350px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.btn{
+    color:aqua;
+    background-color:yellowgreen;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+.btn:hover{
+    background-color: transparent;
+    color: palegreen;
+    border: 1px solid palegreen;
+}
+#section{
+    height:250px;
+    width: 1200px;
+    background-color: white;
+}
+.box{
+    height: 200px;
+    width: 250px;
+    background-color:white;
+    float: left;
+    margin: 20px 25px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 20px;
+}
